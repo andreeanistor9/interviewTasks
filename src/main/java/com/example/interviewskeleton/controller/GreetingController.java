@@ -51,7 +51,7 @@ public class GreetingController {
             return "evening";
         }
     }
-    /** I tryed to implement the bonus task but I did not find hasHeader for requestMatchers() method;
+    /** I tried to implement the bonus task but I did not find hasHeader for requestMatchers() method;
      * authorizeRequests() is deprecated so now we have to use authorizeHttpRequests and
      * antMatchers() is also deprecated so now we have to use requestMatchers() which does not have a hasHeader() method.
      * Also if I want to implement security, i introduced this depencdency in pom.xml but I deleted because I did not
